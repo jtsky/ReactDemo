@@ -71,35 +71,36 @@ var CommentBox = React.createClass({displayName: "CommentBox",
 
     loadCommentsFromServer: function () {
         $.ajax({
-            url: this.props.url,
-            dataType: "json",
-            cache: false,
-            success: function (data) {
-                this.setState({data: data});
-                console.info('loadCommentsFromServersucess===>', data);
-            }.bind(this),
-            error: function (xhr, status, err) {
-                console.error("loadCommentsFromServererror===>" + this.props.url, status, err.toString());
-            }.bind(this)
-        });
+                url: this.props.url,
+                dataType: "json",
+                cache: false,
+                success: function (data) {
+                    this.setState({data: data});
+                    console.info('loadCommentsFromServersucess===>',data);
+                }.bind(this),
+                error: function (xhr, status, err) {
+                    console.error("loadCommentsFromServererror===>" + this.props.url, status, err.toString());
+                }.bind(this)
+            }
+        );
     },
 
     handleCommentSubmit: function (comment) {
-        console.info('comment====>', comment);
+        console.info('comment====>',comment);
         /*var comments = this.state.data;
-         var newComments = comments.concat([comment]);
-         this.setState({data: newComments});*/
+        var newComments = comments.concat([comment]);
+        this.setState({data: newComments});*/
         $.ajax({
+            url: "http://localhost:8080/api",
+            dataType: 'json',
             type: 'POST',
-            url: this.props.url,
-            dataType: "json",
-            data: {data: comment},
+            data: comment,
             success: function (data) {
-                console.info('handleCommentSubmitsuccess===>', data);
+                console.info('handleCommentSubmitsuccess===>',data);
                 this.setState({data: data});
             }.bind(this),
             error: function (xhr, status, err) {
-                console.error("handleCommentSubmiterror===>", this.props.url, status, err);
+                console.error("handleCommentSubmiterror===>",this.props.url, status, err);
             }.bind(this)
         });
     },

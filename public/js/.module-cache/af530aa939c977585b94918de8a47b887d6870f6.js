@@ -71,43 +71,43 @@ var CommentBox = React.createClass({displayName: "CommentBox",
 
     loadCommentsFromServer: function () {
         $.ajax({
-            url: this.props.url,
-            dataType: "json",
-            cache: false,
-            success: function (data) {
-                this.setState({data: data});
-                console.info('loadCommentsFromServersucess===>', data);
-            }.bind(this),
-            error: function (xhr, status, err) {
-                console.error("loadCommentsFromServererror===>" + this.props.url, status, err.toString());
-            }.bind(this)
-        });
+                url: this.props.url,
+                dataType: "json",
+                cache: false,
+                success: function (data) {
+                    this.setState({data: data});
+                    console.info(data);
+                }.bind(this),
+                error: function (xhr, status, err) {
+                    console.error("error===>" + this.props.url, status, err.toString());
+                }.bind(this)
+            }
+        );
     },
 
     handleCommentSubmit: function (comment) {
-        console.info('comment====>', comment);
-        /*var comments = this.state.data;
-         var newComments = comments.concat([comment]);
-         this.setState({data: newComments});*/
+        console.info('comment==========>' + comment.toSource());
+        var comments = this.state.data;
+        var newComments = comments.concat([comment]);
+        this.setState({data: newComments});
         $.ajax({
-            type: 'POST',
             url: this.props.url,
-            dataType: "json",
-            data: {data: comment},
+            dataType: 'json',
+            type: 'POST',
+            data: comment,
             success: function (data) {
-                console.info('handleCommentSubmitsuccess===>', data);
                 this.setState({data: data});
             }.bind(this),
+
             error: function (xhr, status, err) {
-                console.error("handleCommentSubmiterror===>", this.props.url, status, err);
+                console.error(this.props.url, status, err);
             }.bind(this)
         });
     },
 
     componentDidMount: function () {
-        this.loadCommentsFromServer();
-        {/*setInterval(this.loadCommentsFromServer, this.props.pollInterval);*/
-        }
+        {/*this.loadCommentsFromServer();*/}
+        {/*setInterval(this.loadCommentsFromServer, this.props.pollInterval);*/}
     },
 
     render: function () {
