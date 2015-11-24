@@ -1,7 +1,6 @@
 <?php namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Input;
 
 /**
  * Created by PhpStorm.
@@ -15,7 +14,7 @@ class ApiController extends Controller
     public function index()
     {
         $data = array(
-            ["author" => "呵呵xxxxxxxxx", "text" => "this is one comments"],
+            ["author" => "呵呵", "text" => "this is one comments"],
             ["author" => "Jordan Walke", "text" => "this is *another* comment"]);
         return $data;
     }
