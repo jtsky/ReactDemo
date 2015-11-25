@@ -1,10 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3a70f55-39c2-4630-a9c0-64d66accedb1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    <list default="true" id="a3a70f55-39c2-4630-a9c0-64d66accedb1" name="Default" comment="新增表单提交功能&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/03b432439d15a2286a69a545b74ee16d6ba72524.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/049b6685f8f40b72347387364e81e974a515eaa0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/0512a022bf2fc2dbb605d7a8ac11745001d55db1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/0bf3847324021eaf361b99abf19e4f831aa65e58.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/0c133e16c59b1a353e3b90385c5d057399820399.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/270ff36147142d94c844f3efbf7e0add17876e29.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/27cbb5d62944cb388f56ac260957d430d39c6eac.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/2a32fd423f84f124cb929fe748e14cf203bd2e99.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/2f6e9c5568b506eee18a326f5e0255361aa38eb7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/3197357835b8dd0f8f5114072d82123001c0eaa6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/3e6809f845b015764399da0bf8513b5edfa56342.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/421b2a657674e855d55025c0d3eba23b5c0a2c33.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/4239eebcd5b85a8285bc012af91fb77d76dc86ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/42e3ea9e0f5c4732362cd77a857281396f56e738.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/45e56b4a667df6c4bdb29669a3e3239f4e9a7b30.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/4a8758fbb4bafda518267a700da8ae2a561e22c4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/5734448b3e28bc92c341abb4a5580bb889edd958.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/58d48f34ec3132e5fa58e490c5500edafe3b95a7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/58fecef2fc820cad4552a81f60ab9747cc8981b3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/592ef1a3f8ad0e97b3b9484310c2053965c21ad6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/5a3f2ac3f0eff837909102d1a5cce1613dfe8e65.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/5dfccec4dfbe965edbf7e403ea3ee9f7a9d31d60.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/67c8c2267e56934f97487ebc2d55bfd2bf8e898b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/686d626c2ab9a7ba53686f7ac884e4d17aecad9b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/6a7486148472e5379139e876cc7eeab887e6af21.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/727d7b79af4ba918e81a548621cac03e3cbde294.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/734d7179dd3db260a22aeaaf8ce4321813d7d867.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/7b99f47cdfbc9b9fbc2926b6d4379a8ef8bc3179.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/7c600deaf6c14af9f8ad29d0a61bb47f66057047.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/802725d883e30a9a351b5f0cfc04f159d6ce36a7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/8102e1461815d95d04e3be6d9d8d6fca7ab80c5c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/96a6e56ab53bee77dc9e5609a4dd62e454ed52a5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/97b189fd0ce4b1fea608b6c7e17451e8330a9732.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/9a146106c1d50ae8bc5cc3759be42faf14411e3c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/b10cde7b14757294d067f5636f888e548da798bf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/b5a672a4b100eba38017c5c8a5e2fd5202c7b9e8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/bde054088985f632c472cfdfd77d7e6d6df8320a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/c25ed120000debe2578f2da75967862abca78c89.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/c29fef5c8341bd19789728af632fdaa28199f3c6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/c782af88de95c45cee6067f8d80f2fa0431daf32.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/cc60cf1f6ccd122019f03c0408e6d727b02cf96d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/cf3a14871018528a4469bb477f1e77428a86e179.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/d627adc1a4a2f71634bcda73d74f0dac2522bf8a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/d649b127fb3d0f94d883c357d499a8121a1bad03.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/d8288a55c3744ba9ca582bdb59855e6c03ff8359.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/ddc5d5883e57f99fc86c54f27107f1469a1eb23e.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/de6ddab98005de58a25e0e85109367eadf688785.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/e0fefd2cad58353c25e32d1c5931121083c37997.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/e77cc371d76ec2ce3518d5e0afcda04b561a053e.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/e88f2c77e142effb2227d640d07c5960ebceb603.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/eb00d08e422cb4047e4132773f7eb6a37d545673.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/eb0740acbb8e3c06b47ae0fb940b273824479521.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/ef6929c61a8a001cb493d8454805f6f67b06b299.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/f293a7de06025a5ef694827256ab4fd59dd783bf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/f7bf6a16015413b35eaadd2b76479654f31e5f35.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/ffb248d0996b7546070b13c1dad1abcca08dca50.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/03b432439d15a2286a69a545b74ee16d6ba72524.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/049b6685f8f40b72347387364e81e974a515eaa0.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/0512a022bf2fc2dbb605d7a8ac11745001d55db1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/0bf3847324021eaf361b99abf19e4f831aa65e58.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/0c133e16c59b1a353e3b90385c5d057399820399.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/270ff36147142d94c844f3efbf7e0add17876e29.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/27cbb5d62944cb388f56ac260957d430d39c6eac.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/2a32fd423f84f124cb929fe748e14cf203bd2e99.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/2f6e9c5568b506eee18a326f5e0255361aa38eb7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/3197357835b8dd0f8f5114072d82123001c0eaa6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/3e6809f845b015764399da0bf8513b5edfa56342.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/421b2a657674e855d55025c0d3eba23b5c0a2c33.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/4239eebcd5b85a8285bc012af91fb77d76dc86ca.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/42e3ea9e0f5c4732362cd77a857281396f56e738.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/45e56b4a667df6c4bdb29669a3e3239f4e9a7b30.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/4a8758fbb4bafda518267a700da8ae2a561e22c4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/5734448b3e28bc92c341abb4a5580bb889edd958.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/58d48f34ec3132e5fa58e490c5500edafe3b95a7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/58fecef2fc820cad4552a81f60ab9747cc8981b3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/592ef1a3f8ad0e97b3b9484310c2053965c21ad6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/5a3f2ac3f0eff837909102d1a5cce1613dfe8e65.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/5dfccec4dfbe965edbf7e403ea3ee9f7a9d31d60.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/67c8c2267e56934f97487ebc2d55bfd2bf8e898b.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/686d626c2ab9a7ba53686f7ac884e4d17aecad9b.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/6a7486148472e5379139e876cc7eeab887e6af21.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/727d7b79af4ba918e81a548621cac03e3cbde294.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/734d7179dd3db260a22aeaaf8ce4321813d7d867.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/7b99f47cdfbc9b9fbc2926b6d4379a8ef8bc3179.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/7c600deaf6c14af9f8ad29d0a61bb47f66057047.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/802725d883e30a9a351b5f0cfc04f159d6ce36a7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/8102e1461815d95d04e3be6d9d8d6fca7ab80c5c.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/96a6e56ab53bee77dc9e5609a4dd62e454ed52a5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/97b189fd0ce4b1fea608b6c7e17451e8330a9732.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/9a146106c1d50ae8bc5cc3759be42faf14411e3c.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/b10cde7b14757294d067f5636f888e548da798bf.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/b5a672a4b100eba38017c5c8a5e2fd5202c7b9e8.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/bde054088985f632c472cfdfd77d7e6d6df8320a.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/c25ed120000debe2578f2da75967862abca78c89.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/c29fef5c8341bd19789728af632fdaa28199f3c6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/c782af88de95c45cee6067f8d80f2fa0431daf32.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/cc60cf1f6ccd122019f03c0408e6d727b02cf96d.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/cf3a14871018528a4469bb477f1e77428a86e179.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/d627adc1a4a2f71634bcda73d74f0dac2522bf8a.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/d649b127fb3d0f94d883c357d499a8121a1bad03.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/d8288a55c3744ba9ca582bdb59855e6c03ff8359.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/ddc5d5883e57f99fc86c54f27107f1469a1eb23e.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/de6ddab98005de58a25e0e85109367eadf688785.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/e0fefd2cad58353c25e32d1c5931121083c37997.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/e77cc371d76ec2ce3518d5e0afcda04b561a053e.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/e88f2c77e142effb2227d640d07c5960ebceb603.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/eb00d08e422cb4047e4132773f7eb6a37d545673.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/eb0740acbb8e3c06b47ae0fb940b273824479521.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/ef6929c61a8a001cb493d8454805f6f67b06b299.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/f293a7de06025a5ef694827256ab4fd59dd783bf.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/f7bf6a16015413b35eaadd2b76479654f31e5f35.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/.module-cache/manifest/ffb248d0996b7546070b13c1dad1abcca08dca50.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/ProductBox1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/ProductBox2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/ProductBox3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsx/ProductBox1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsx/ProductBox2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsx/ProductBox3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/CommentBox.js" afterPath="$PROJECT_DIR$/public/js/CommentBox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/jsx/CommentBox.js" afterPath="$PROJECT_DIR$/public/jsx/CommentBox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/comment.blade.php" />
     </list>
     <ignored path="laravel-v5.1.4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,42 +147,37 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="laravel-v5.1.4" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="comment.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/comment.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.346789" vertical-offset="0" max-vertical-offset="545">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6763006">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+      <file leaf-file-name="ProductBox2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/ProductBox2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6944447" vertical-offset="344" max-vertical-offset="999">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <element signature="e#39#67#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <file leaf-file-name="ProductBox1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/jsx/ProductBox1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="459">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -64,8 +186,8 @@
       <file leaf-file-name="CommentBox.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/jsx/CommentBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2227" max-vertical-offset="3591">
-              <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -74,6 +196,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -84,26 +213,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/CommentBox.js" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/public/jsx/ProductBox.js" />
+        <option value="$PROJECT_DIR$/public/jsx/ProductBox2.js" />
+        <option value="$PROJECT_DIR$/resources/views/product.blade.php" />
+        <option value="$PROJECT_DIR$/public/jsx/ProductBox3.js" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/jsx/CommentBox.js" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/resources/views/comment.blade.php" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <gulpfiles>
       <GulpfileState>
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
       </GulpfileState>
     </gulpfiles>
-    <initial>false</initial>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -136,8 +267,11 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,50 +280,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-v5.1.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReactDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Learn-Laravel-5" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="D:\NodeJS\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\www\laravel-v5.1.4\resources\src" />
-      <recent name="E:\www\laravel-v5.1.4\resources\js" />
-      <recent name="E:\www\laravel-v5.1.4\resources\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\www\laravel-v5.1.4\public\js" />
       <recent name="E:\www\laravel-v5.1.4\resources\views" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\www\ReactDemo\public\js" />
+      <recent name="E:\www\ReactDemo\public\jsx" />
+      <recent name="E:\www\ReactDemo\resources\views" />
+      <recent name="E:\www\laravel-v5.1.4\resources\src" />
+      <recent name="E:\www\laravel-v5.1.4\resources\js" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -199,11 +329,16 @@
       <node-options />
       <gulpfile />
       <tasks />
-      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <arguments />
       <envs />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -225,33 +360,77 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33222592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26476908" sideWeight="0.50082916" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22898707" sideWeight="0.7873754" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33144796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="29" y="410" width="1862" height="300" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26476908" sideWeight="0.21262458" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33144796" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="29" y="410" width="1862" height="300" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26476908" sideWeight="0.50082916" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22948164" sideWeight="0.7873754" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26476908" sideWeight="0.21262458" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -265,9 +444,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
     <MESSAGE value="新增表单提交功能&#10;" />
     <option name="LAST_COMMIT_MESSAGE" value="新增表单提交功能&#10;" />
   </component>
@@ -276,35 +452,71 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="270">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/CommentBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="2565">
-          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#7#392#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/jsx/CommentBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1854" max-vertical-offset="2565">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/jsx/CommentBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/comment.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/jsx/CommentBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -314,198 +526,235 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#39#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/CommentBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2022" max-vertical-offset="2565">
-          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23157895" vertical-offset="510" max-vertical-offset="1377">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/.module-cache/manifest/00c376c057065313d31e859f16554e8f5ed856f1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="873">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1593">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="594">
+        <state vertical-scroll-proportion="-12.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.75" vertical-offset="0" max-vertical-offset="1539">
+        <state vertical-scroll-proportion="-0.75">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7627119" vertical-offset="0" max-vertical-offset="648">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/.module-cache/b502ca9f7e3917014578e603fc77a36d311649f2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1566">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="25002" max-vertical-offset="121500">
+        <state vertical-scroll-proportion="0.0">
           <caret line="933" column="18" selection-start-line="933" selection-start-column="18" selection-end-line="933" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/.module-cache/3147c348dca801c2c14b65b70cd1eedafacbabc4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2921" max-vertical-offset="3510">
+        <state vertical-scroll-proportion="0.0">
           <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/CommentBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2079" max-vertical-offset="3537">
-          <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.86111" vertical-offset="715" max-vertical-offset="1296">
+        <state vertical-scroll-proportion="19.86111">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="18.36111" vertical-offset="661" max-vertical-offset="1404">
+        <state vertical-scroll-proportion="18.36111">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1388888" vertical-offset="121" max-vertical-offset="621">
+        <state vertical-scroll-proportion="-1.1388888">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="536">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.56">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38229755" vertical-offset="310" max-vertical-offset="1053">
+        <state vertical-scroll-proportion="-14.25">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4144144">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.0">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/jsx/ProductBox2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="86" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/jsx/ProductBox3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36216217">
+          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+          <folding>
+            <element signature="e#2684#2811#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ProductBox1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9135134">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/product.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54913294">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="459">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/CommentBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+          <folding>
+            <marker date="1448445266265" expanded="true" signature="0:50" placeholder="/** Created by Administrator on 2015/11/20. ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/JSXTransformer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/jsx/CommentBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2227" max-vertical-offset="3591">
-          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+    <entry file="file://$PROJECT_DIR$/public/jsx/ProductBox1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6944447" vertical-offset="344" max-vertical-offset="999">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="e#39#67#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/public/js/ProductBox2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.346789" vertical-offset="0" max-vertical-offset="545">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/comment.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6763006">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

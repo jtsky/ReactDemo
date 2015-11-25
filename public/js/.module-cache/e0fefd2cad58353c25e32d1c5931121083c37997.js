@@ -6,38 +6,38 @@
  {author: "Jordan Walke", text: "this is *another* comment"}
  ];*/
 
-var Comment = React.createClass({
+var Comment = React.createClass({displayName: "Comment",
     render: function () {
         return (
-            <div className="comment">
-                <h2 className="commentAuthor">
-                    {this.props.author}
-                </h2>
-                {this.props.children}
-            </div>);
+            React.createElement("div", {className: "comment"}, 
+                React.createElement("h2", {className: "commentAuthor"}, 
+                    this.props.author
+                ), 
+                this.props.children
+            ));
     }
 });
 
-var CommentList = React.createClass({
+var CommentList = React.createClass({displayName: "CommentList",
     render: function () {
         var commentNodes = this.props.data.map(
             function (comment) {
                 return (
-                    <Comment author={comment.author}>
-                        {comment.text}
-                    </Comment>
+                    React.createElement(Comment, {author: comment.author}, 
+                        comment.text
+                    )
                 );
             }
         );
 
         return (
-            <div className="commentList">
-                {commentNodes}
-            </div>);
+            React.createElement("div", {className: "commentList"}, 
+                commentNodes
+            ));
     }
 });
 
-var CommentForm = React.createClass({
+var CommentForm = React.createClass({displayName: "CommentForm",
     handleSubmit: function (e) {
         e.preventDefault();
         var author = this.refs.author.value.trim();
@@ -55,16 +55,16 @@ var CommentForm = React.createClass({
 
     render: function () {
         return (
-            <form className="commentForm" onSubmit={this.handleSubmit}>
-                <input type="text" placeholder="your name" ref='author'/>
-                <input type="text" placeholder="say something...." ref='text'/>
-                <input type="submit" value="Post"/>
-            </form>
+            React.createElement("form", {className: "commentForm", onSubmit: this.handleSubmit}, 
+                React.createElement("input", {type: "text", placeholder: "your name", ref: "author"}), 
+                React.createElement("input", {type: "text", placeholder: "say something....", ref: "text"}), 
+                React.createElement("input", {type: "submit", value: "Post"})
+            )
         );
     }
 });
 
-var CommentBox = React.createClass({
+var CommentBox = React.createClass({displayName: "CommentBox",
     getInitialState: function () {
         return {data: []}
     },
@@ -99,25 +99,26 @@ var CommentBox = React.createClass({
 
     render: function () {
         return (
-            <div className="commentBox">
-                <h1>CommentBox</h1>
-                <CommentList data={this.state.data}/>
-                <h1>------------------我是分界线--------------</h1>
-                <CommentForm onCommentSubmit={this.handleCommentSubmit}/>
-            </div>
+            React.createElement("div", {className: "commentBox"}, 
+                React.createElement("h1", null, "CommentBox"), 
+                React.createElement(CommentList, {data: this.state.data}), 
+                React.createElement("h1", null, "------------------我是分界线--------------"), 
+                React.createElement(CommentForm, {onCommentSubmit: this.handleCommentSubmit})
+            )
         );
     }
 });
 
-/*ReactDOM.render(
-    <CommentBox url="/api"/>,
-    $('#content')[0]
-);*/
-/*ReactDOM.render(
- <select value="C">
- <option value="A">Apple</option>
- <option value="B">Banana</option>
- <option value="C">Cranberry</option>
- </select>,
+/*
+ ReactDOM.render(
+ <CommentBox url="/api"/>,
  $('#content')[0]
  );*/
+ReactDOM.render(
+    React.createElement("select", {value: ""}, 
+        React.createElement("option", {value: "A"}, "Apple"), 
+        React.createElement("option", {value: "B"}, "Banana"), 
+        React.createElement("option", {value: "C"}, "Cranberry")
+    ),
+    $('#content')[0]
+);

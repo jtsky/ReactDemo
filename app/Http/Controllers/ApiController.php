@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
 class ApiController extends Controller
 {
 
-    public function index()
+    public function getIndex()
     {
         $data = array(
             ["author" => "呵呵", "text" => "this is one comments"],
@@ -19,7 +19,24 @@ class ApiController extends Controller
         return $data;
     }
 
-    public function aa(Request $request)
+
+    public function getProduct()
+    {
+
+        $data = array(
+            ["category" => "Sporting Goods", "price" => "$49.99", "stocked" => true, "name" => "Football"],
+            ["category" => "Sporting Goods", "price" => "$9.99", "stocked" => true, "name" => "Baseball"],
+            ["category" => "Sporting Goods", "price" => "$29.99", "stocked" => false, "name" => "Basketball"],
+            ["category" => "Electronics", "price" => "$99.99", "stocked" => false, "name" => "iPod Touch"],
+            ["category" => "Electronics", "price" => "$399.99", "stocked" => false, "name" => "iPhone 5"],
+            ["category" => "Electronics", "price" => "$199.99", "stocked" => true, "name" => "Nexus 7"]
+        );
+
+        return $data;
+    }
+
+
+    public function postIndex(Request $request)
     {
 
         return array($request->get('data'));
@@ -28,4 +45,6 @@ class ApiController extends Controller
             ["author" => "Jordan Walke", "text" => "this is *another* comment"]);
         return $data;*/
     }
+
+
 }
