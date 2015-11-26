@@ -68,15 +68,22 @@ var CommentBox = React.createClass({displayName: "CommentBox",
     loadCommentsFromServer: function () {
         $.get(this.props.url, function (data) {
             this.setState({data: data});
+            console.info('loadCommentsFromServersucess===>', data);
         }.bind(this), 'json');
 
     },
 
     handleCommentSubmit: function (comment) {
+        //console.info('comment====>', comment);
+        /*var comments = this.state.data;
+         var newComments = comments.concat([comment]);
+         this.setState({data: newComments});*/
+
         $.post(this.props.url, {data: comment}, function (data) {
             console.info('handleCommentSubmitsuccess===>', data);
             this.setState({data: data});
         }.bind(this), 'json');
+
 
     },
 

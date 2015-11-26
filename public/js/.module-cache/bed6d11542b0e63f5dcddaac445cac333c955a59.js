@@ -1,6 +1,10 @@
 /**
  * Created by Administrator on 2015/11/20.
  */
+/*var data = [
+ {author: "Pete Hunt", text: "this is one comments"},
+ {author: "Jordan Walke", text: "this is *another* comment"}
+ ];*/
 
 var Comment = React.createClass({displayName: "Comment",
     render: function () {
@@ -68,15 +72,22 @@ var CommentBox = React.createClass({displayName: "CommentBox",
     loadCommentsFromServer: function () {
         $.get(this.props.url, function (data) {
             this.setState({data: data});
+            console.info('loadCommentsFromServersucess===>', data);
         }.bind(this), 'json');
 
     },
 
     handleCommentSubmit: function (comment) {
+        //console.info('comment====>', comment);
+        /*var comments = this.state.data;
+         var newComments = comments.concat([comment]);
+         this.setState({data: newComments});*/
+
         $.post(this.props.url, {data: comment}, function (data) {
             console.info('handleCommentSubmitsuccess===>', data);
             this.setState({data: data});
         }.bind(this), 'json');
+
 
     },
 
@@ -99,3 +110,15 @@ var CommentBox = React.createClass({displayName: "CommentBox",
 });
 
 module.exports = CommentBox;
+/*ReactDOM.render(
+    <CommentBox url="/api"/>,
+    $('#content')[0]
+);*/
+/*ReactDOM.render(
+ <select value="C">
+ <option value="A">Apple</option>
+ <option value="B">Banana</option>
+ <option value="C">Cranberry</option>
+ </select>,
+ $('#content')[0]
+ );*/

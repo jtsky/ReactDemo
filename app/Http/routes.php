@@ -12,8 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('comment');
-   // return view('product');
+    //return view('comment');
+    return view('product');
 });
 
 

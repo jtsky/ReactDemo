@@ -1,3 +1,5 @@
+var CommentBox = require('./CommentBox');
+
 var ProductCategoryRow = React.createClass({
     render: function () {
         return (<tr>
@@ -101,9 +103,9 @@ var FilterableProductTable = React.createClass({
         }.bind(this), 'json');
     },
     //
-    componentDidMount: function () {
+    /*componentDidMount: function () {
         this.loadDate();
-    },
+    },*/
     //当搜索框关键字改变的时候被回调
     handleUserInput: function (filterText, inStockOnly) {
         this.setState({
@@ -113,9 +115,11 @@ var FilterableProductTable = React.createClass({
     },
 
     render: function () {
+        var url = this.props.url;
         return (
             <div>
-                <SearchBar
+                <CommentBox url= {url} />
+                /*<SearchBar
                     filterText={this.state.filterText}
                     inStockOnly={this.state.inStockOnly}
                     onUserInput={this.handleUserInput}
@@ -124,14 +128,12 @@ var FilterableProductTable = React.createClass({
                     products={this.state.data}
                     filterText={this.state.filterText}
                     inStockOnly={this.state.inStockOnly}
-                />
+                />*/
             </div>
         );
     }
 });
 
+module.exports = FilterableProductTable;
 
-ReactDOM.render(
-    <FilterableProductTable url="/api/product"/>,
-    $('.container')[0]
-);
+ReactDOM.render(<FilterableProductTable url="/api"/>,$('.container')[0]);

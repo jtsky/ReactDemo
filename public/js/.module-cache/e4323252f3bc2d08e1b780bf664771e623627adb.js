@@ -115,7 +115,7 @@ var FilterableProductTable = React.createClass({displayName: "FilterableProductT
     },
 
     render: function () {
-        var url = this.props.url;
+        var url = this.props.url + '/product';
         return (
             React.createElement("div", null, 
                 React.createElement(CommentBox, {url: url}), 

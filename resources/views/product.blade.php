@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="container"></div>
-<script src="js/ProductBox3.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>

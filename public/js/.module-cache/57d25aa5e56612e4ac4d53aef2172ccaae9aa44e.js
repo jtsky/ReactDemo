@@ -115,10 +115,9 @@ var FilterableProductTable = React.createClass({displayName: "FilterableProductT
     },
 
     render: function () {
-        var url = this.props.url;
         return (
             React.createElement("div", null, 
-                React.createElement(CommentBox, {url: url}), 
+                React.createElement(CommentBox, {url: this.props.url}), 
                 "/*", React.createElement(SearchBar, {
                     filterText: this.state.filterText, 
                     inStockOnly: this.state.inStockOnly, 
@@ -134,6 +133,5 @@ var FilterableProductTable = React.createClass({displayName: "FilterableProductT
     }
 });
 
-module.exports = FilterableProductTable;
-
+//module.exports = FilterableProductTable;
 ReactDOM.render(React.createElement(FilterableProductTable, {url: "/api"}),$('.container')[0]);
