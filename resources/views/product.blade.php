@@ -14,7 +14,9 @@
 </head>
 <body>
 <div class="container"></div>
-<script src="js/main.js"></script>
+<script src="src/common.js"></script>
+<script src="src/js.js"></script>
+<script src="src/css.js"></script>
 
 </body>
 </html>
